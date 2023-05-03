@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	background-image: url("images/large-background-image.jpg");
+	/* background-size: cover; */
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.primary-text {
+	text-align: center;
+	/* font-style: italic; */
+	font-family: 'Dancing Script', cursive;
+	color: black;
+}
+
+.secondary-text {
+	text-align: center;
+	/* font-style: italic; */
+	font-family: 'Dancing Script', cursive;
+	color: black;
+}
+
+.tertiary-text {
+	text-align: center;
+	/* font-style: italic; */
+	font-family: 'Dancing Script', cursive;
+	color: black;
+}
+
+@media only screen and (max-width: 767px) {
+	.background {
+		background-image: url("images/mobile.jpg");
+	}
+
+	.primary-text {
+		font-size: 2em;
+	}
+	.secondary-text {
+		font-size: 1.3em;
+	}
+	.tertiary-text {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.background {
+		background-image: url("images/tablet.jpg");
+	}
+
+	.primary-text {
+		font-size: 4em;
+	}
+	.secondary-text {
+		font-size: 2.5em;
+	}
+	.tertiary-text {
+		font-size: 2em;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) {
+	.background {
+		background-image: url("images/desktop.jpg");
+	}
+
+	.primary-text {
+		font-size: 5em;
+	}
+	.secondary-text {
+		font-size: 3em;
+	}
+	.tertiary-text {
+		font-size: 2em;
+	}
+}
