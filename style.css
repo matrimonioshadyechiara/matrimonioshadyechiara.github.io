@@ -2,11 +2,20 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 .background {
-	background-image: url("images/large-background-image.jpg");
-	/* background-size: cover; */
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.background-inv {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -37,9 +46,40 @@ html, body {
 	color: black;
 }
 
+/* nav.scrolled {
+	background-color: #FCF8F5;
+    transition: background-color 500ms ease-in-out;
+} */
+
+.offcanvas {
+	width: 70% !important;
+	background-color: #FCF8F5;
+}
+
+.nav-link {
+	font-family: 'Dancing Script', cursive; 
+	color: black !important;
+}
+
+.nav-link:hover {
+	text-decoration: underline !important;
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: 10px;
+}
+
+a {
+	font-family: 'Dancing Script', cursive; 
+	color: black !important;
+	text-decoration: none !important;
+}
+
+
 @media only screen and (max-width: 767px) {
 	.background {
 		background-image: url("images/mobile.jpg");
+	}
+	.background-inv {
+		background-image: url("images/mobile-inv.jpg");
 	}
 
 	.primary-text {
@@ -51,11 +91,18 @@ html, body {
 	.tertiary-text {
 		font-size: 1em;
 	}
+
+	.nav-item {
+		font-size: 1em;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	.background {
 		background-image: url("images/tablet.jpg");
+	}
+	.background-inv {
+		background-image: url("images/tablet-inv.jpg");
 	}
 
 	.primary-text {
@@ -67,12 +114,19 @@ html, body {
 	.tertiary-text {
 		font-size: 2em;
 	}
+
+	.nav-item {
+		font-size: 1em;
+	}
 }
 
 
 @media only screen and (min-width: 1024px) {
 	.background {
 		background-image: url("images/desktop.jpg");
+	}
+	.background-inv {
+		background-image: url("images/desktop-inv.jpg");
 	}
 
 	.primary-text {
@@ -83,5 +137,9 @@ html, body {
 	}
 	.tertiary-text {
 		font-size: 2em;
+	}
+
+	.nav-item {
+		font-size: 1.5em;
 	}
 }
