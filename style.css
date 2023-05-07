@@ -27,21 +27,18 @@ html, body {
 
 .primary-text {
 	text-align: center;
-	/* font-style: italic; */
 	font-family: 'Dancing Script', cursive;
 	color: black;
 }
 
 .secondary-text {
 	text-align: center;
-	/* font-style: italic; */
 	font-family: 'Dancing Script', cursive;
 	color: black;
 }
 
 .tertiary-text {
 	text-align: center;
-	/* font-style: italic; */
 	font-family: 'Dancing Script', cursive;
 	color: black;
 }
@@ -53,26 +50,28 @@ html, body {
 
 .offcanvas {
 	width: 70% !important;
-	background-color: #FCF8F5;
+	background-color: #FCF8F5 !important;
 }
 
-.nav-link {
-	font-family: 'Dancing Script', cursive; 
+a {
+	font-family: 'Dancing Script', cursive;
 	color: black !important;
+	text-decoration: none !important;
 }
 
-.nav-link:hover {
+a:hover {
 	text-decoration: underline !important;
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: 10px;
 }
 
-a {
-	font-family: 'Dancing Script', cursive; 
-	color: black !important;
-	text-decoration: none !important;
+.hyperlink {
+	color: var(--bs-link-color) !important;
 }
 
+.hyperlink:hover {
+	color: var(--bs-link-color) !important;
+}
 
 @media only screen and (max-width: 767px) {
 	.background {
@@ -93,7 +92,22 @@ a {
 	}
 
 	.nav-item {
-		font-size: 1em;
+		font-size: 1.3em;
+	}
+
+	iframe {
+		width: 70%;
+		height: 30%;
+	}
+
+	#img-lista-nozze {
+		width: 70%;
+		height: 30%;
+	}
+
+	#img-tableau {
+		width: 70%;
+		height: 40%;
 	}
 }
 
@@ -116,7 +130,22 @@ a {
 	}
 
 	.nav-item {
-		font-size: 1em;
+		font-size: 2em;
+	}
+
+	iframe {
+		width: 70%;
+		height: 30%;
+	}
+
+	#img-lista-nozze {
+		width: 70%;
+		height: 30%;
+	}
+
+	#img-tableau {
+		width: 70%;
+		height: 50%;
 	}
 }
 
@@ -140,6 +169,23 @@ a {
 	}
 
 	.nav-item {
-		font-size: 1.5em;
+		font-size: 2em;
+		padding-left: 1em !important;
+  		padding-right: 1em !important;
+	}
+
+	iframe {
+		width: 50%;
+		height: 50%;
+	}
+
+	#img-lista-nozze {
+		width: 50%;
+		height: 50%;
+	}
+
+	#img-tableau {
+		width: 40%;
+		height: 60%;
 	}
 }
