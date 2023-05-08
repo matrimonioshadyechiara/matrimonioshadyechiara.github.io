@@ -43,10 +43,10 @@ html, body {
 	color: black;
 }
 
-/* nav.scrolled {
+nav.scrolled {
 	background-color: #FCF8F5;
     transition: background-color 500ms ease-in-out;
-} */
+}
 
 .offcanvas {
 	width: 70% !important;
@@ -82,13 +82,13 @@ a:hover {
 	}
 
 	.primary-text {
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 	.secondary-text {
-		font-size: 1.3em;
+		font-size: 2em;
 	}
 	.tertiary-text {
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 
 	.nav-item {
@@ -96,17 +96,17 @@ a:hover {
 	}
 
 	iframe {
-		width: 70%;
-		height: 30%;
+		width: 80%;
+		height: 20%;
 	}
 
 	#img-lista-nozze {
-		width: 70%;
+		width: 80%;
 		height: 30%;
 	}
 
 	#img-tableau {
-		width: 70%;
+		width: 80%;
 		height: 40%;
 	}
 }
@@ -135,17 +135,17 @@ a:hover {
 
 	iframe {
 		width: 70%;
-		height: 30%;
+		height: 20%;
 	}
 
 	#img-lista-nozze {
-		width: 70%;
+		width: 60%;
 		height: 30%;
 	}
 
 	#img-tableau {
-		width: 70%;
-		height: 50%;
+		width: 60%;
+		height: 40%;
 	}
 }
 
@@ -176,16 +176,16 @@ a:hover {
 
 	iframe {
 		width: 50%;
-		height: 50%;
+		height: 30%;
 	}
 
 	#img-lista-nozze {
-		width: 50%;
-		height: 50%;
+		width: 40%;
+		height: 40%;
 	}
 
 	#img-tableau {
-		width: 40%;
-		height: 60%;
+		width: 30%;
+		height: 50%;
 	}
 }

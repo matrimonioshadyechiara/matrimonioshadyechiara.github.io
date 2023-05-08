@@ -25,21 +25,7 @@
 
 <body>
 
-	<div class="background">
-
-    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navigation-bar">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link px-5" href="#location">Location</a>
-          <a class="nav-item nav-link px-5" href="#soggiorno">Soggiorno</a>
-          <a class="nav-item nav-link px-5" href="#lista-nozze">Lista Nozze</a>
-          <a class="nav-item nav-link px-5" href="#tableau">Tableau</a>
-        </div>
-      </div>
-    </nav> -->
+	<div class="background" id="home">
 
     <nav class="navbar navbar-expand-lg fixed-top px-2" id="navigation-bar">
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -52,6 +38,9 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#location">Location</a>
             </li>
@@ -77,17 +66,19 @@
     <br>
     <p class="tertiary-text">alle ore 17.30 presso</p>
     <p class="secondary-text">Villa Selavatico</p>
-    <p class="tertiary-text">Viale Sant'Elena, 36 - 35041 Battaglia Terme PD</p>
-    <br>
+    <p class="tertiary-text" style="padding-bottom: 1%;">Viale Sant'Elena, 36 - 35041 Battaglia Terme PD</p>
     <hr width="5%" style="height:0.1%; background-color:black;">
-    <p class="tertiary-text">Ricevimento a seguire</p>
+    <p class="tertiary-text" style="padding-top: 1%;">Ricevimento a seguire</p>
 
 	</div>
 
 
   <div class="background-inv" id="location">
-    <p class="tertiary-text">La cerimonia ed il ricevimento si terranno presso</p>
+
+    <p class="primary-text">LOCATION</p>
     <br>
+    <p class="tertiary-text">La cerimonia ed il ricevimento si terranno presso</p>
+    <p class="secondary-text">Villa Selavatico</p>
     <p class="tertiary-text">Indirizzo: Viale Sant’Elena, 36 - 35041 Battaglia Terme PD</p>
     <p class="tertiary-text">Sito Web: <a class="hyperlink" href="https://www.villaselvaticoterme.it" target="_blank">https://www.villaselvaticoterme.it</a></p>
     <br>
@@ -97,8 +88,11 @@
 
 
   <div class="background" id="soggiorno">
-    <p class="tertiary-text">Per il soggiorno gli ospiti possono alloggiare presso</p>
+
+    <p class="primary-text">SOGGIORNO</p>
     <br>
+    <p class="tertiary-text">Per il soggiorno gli ospiti possono alloggiare presso</p>
+    <p class="secondary-text">Hotel Giotto</p>
     <p class="tertiary-text">Indirizzo: Piazzale Pontecorvo, 33 - 35121 Padova PD</p>
     <p class="tertiary-text">Sito Web: <a class="hyperlink" href="https://www.hotelgiotto.com" target="_blank">https://www.hotelgiotto.com</a></p>
     <br>
@@ -109,6 +103,8 @@
   
   <div class="background-inv" id="lista-nozze">
 
+    <p class="primary-text">LISTA NOZZE</p>
+    <br>
     <p class="tertiary-text">Se volete partecipare al nostro regalo di nozze</p>
     <p class="tertiary-text">IBAN: 123456789</p>
     <br>
@@ -119,6 +115,8 @@
 
   <div class="background" id="tableau">
 
+    <p class="primary-text">TABLEAU</p>
+    <br>
     <p class="tertiary-text">Il tableau de marriage è il seguente</p>
     <br>
     <img id="img-tableau" src="images/tableau.jpg">
@@ -128,18 +126,17 @@
 
   <!-- SCRIPTS -->
   
-
-  <!-- <script>
+  <script>
     const myNav = document.getElementById('navigation-bar')
 
     window.onscroll = function() {
-      if(window.scrollY >= window.innerHeight){
+      if(window.scrollY >= window.innerHeight/50){
         myNav.classList.add('scrolled')
       }else{
         myNav.classList.remove('scrolled')
       }
     }
-  </script> -->
+  </script>
 
   <script>
     document.addEventListener("click", function(event) {
