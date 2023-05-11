@@ -74,6 +74,14 @@ a:hover {
 	color: var(--bs-link-color) !important;
 }
 
+.pad-bot {
+	padding-bottom: 1%;
+}
+
+.pad-top {
+	padding-top: 1%;
+}
+
 @media only screen and (max-width: 767px) {
 	.background {
 		background-image: url("images/mobile.jpg");
@@ -83,32 +91,35 @@ a:hover {
 	}
 
 	.primary-text {
-		font-size: 2.5em;
+		font-size: 6vh;
+		padding-top: 5vh;
 	}
 	.secondary-text {
-		font-size: 2em;
+		font-size: 4vh;
 	}
 	.tertiary-text {
-		font-size: 1.2em;
+		font-size: 3vh;
 	}
 
 	.nav-item {
-		font-size: 1.2em;
+		font-size: 3vh;
+		padding-left: 1% !important;
+  		padding-right: 1% !important;
 	}
 
 	iframe {
-		width: 80%;
-		height: 20%;
+		width: 40%;
+		height: 20vh;
 	}
 
 	#img-lista-nozze {
-		width: 80%;
-		height: 30%;
+		width: 70%;
+		height: 25vh;
 	}
 
 	#img-tableau {
-		width: 80%;
-		height: 40%;
+		width: 60%;
+		height: 30vh;
 	}
 }
 
@@ -121,32 +132,35 @@ a:hover {
 	}
 
 	.primary-text {
-		font-size: 4em;
+		font-size: 8vh;
+		padding-top: 5vh;
 	}
 	.secondary-text {
-		font-size: 2.5em;
+		font-size: 4vh;
 	}
 	.tertiary-text {
-		font-size: 2em;
+		font-size: 3vh;
 	}
 
 	.nav-item {
-		font-size: 2em;
+		font-size: 3vh;
+		padding-left: 1% !important;
+  		padding-right: 1% !important;
 	}
 
 	iframe {
-		width: 70%;
-		height: 20%;
+		width: 50%;
+		height: 25vh;
 	}
 
 	#img-lista-nozze {
 		width: 60%;
-		height: 30%;
+		height: 25vh;
 	}
 
 	#img-tableau {
-		width: 60%;
-		height: 40%;
+		width: 50%;
+		height: 40vh;
 	}
 }
 
@@ -160,33 +174,34 @@ a:hover {
 	}
 
 	.primary-text {
-		font-size: 5em;
+		font-size: 8.5vh;
+		padding-top: 5vh;
 	}
 	.secondary-text {
-		font-size: 3em;
+		font-size: 5vh;
 	}
 	.tertiary-text {
-		font-size: 2em;
+		font-size: 3.5vh;
 	}
 
 	.nav-item {
-		font-size: 2em;
-		padding-left: 1em !important;
-  		padding-right: 1em !important;
+		font-size: 3.5vh;
+		padding-left: 1% !important;
+  		padding-right: 1% !important;
 	}
 
 	iframe {
-		width: 50%;
-		height: 30%;
+		width: 40%;
+		height: 25vh;
 	}
 
 	#img-lista-nozze {
 		width: 40%;
-		height: 40%;
+		height: 40vh;
 	}
 
 	#img-tableau {
 		width: 30%;
-		height: 50%;
+		height: 50vh;
 	}
 }
