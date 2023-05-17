@@ -84,10 +84,10 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 	.background {
-		background-image: url("images/mobile.jpg");
+		background-image: url("images/mobile_2.jpg");
 	}
 	.background-inv {
-		background-image: url("images/mobile-inv.jpg");
+		background-image: url("images/mobile-inv_2.jpg");
 	}
 
 	.primary-text {
@@ -108,8 +108,8 @@ a:hover {
 	}
 
 	iframe {
-		width: 40%;
-		height: 20vh;
+		width: 60%;
+		height: 15vh;
 	}
 
 	#img-lista-nozze {
@@ -125,10 +125,10 @@ a:hover {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	.background {
-		background-image: url("images/tablet.jpg");
+		background-image: url("images/tablet_2.jpg");
 	}
 	.background-inv {
-		background-image: url("images/tablet-inv.jpg");
+		background-image: url("images/tablet-inv_2.jpg");
 	}
 
 	.primary-text {
@@ -150,7 +150,7 @@ a:hover {
 
 	iframe {
 		width: 50%;
-		height: 25vh;
+		height: 15vh;
 	}
 
 	#img-lista-nozze {
