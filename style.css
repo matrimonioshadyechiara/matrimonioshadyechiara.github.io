@@ -92,7 +92,6 @@ a:hover {
 
 	.primary-text {
 		font-size: 6vh;
-		padding-top: 2vh;
 	}
 	.secondary-text {
 		font-size: 4vh;
@@ -107,14 +106,17 @@ a:hover {
   		padding-right: 1% !important;
 	}
 
-	iframe {
-		width: 60%;
-		height: 15vh;
+	.row {
+		width: 90%;
 	}
 
-	#img-lista-nozze {
-		width: 70%;
-		height: 25vh;
+	.col {
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+	}
+
+	iframe {
+		width: 60%;
 	}
 
 	#img-tableau {
@@ -133,7 +135,6 @@ a:hover {
 
 	.primary-text {
 		font-size: 8vh;
-		padding-top: 2vh;
 	}
 	.secondary-text {
 		font-size: 4vh;
@@ -148,14 +149,18 @@ a:hover {
   		padding-right: 1% !important;
 	}
 
+	.row {
+		width: 85%;
+	}
+
+	.col {
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+	}
+
 	iframe {
 		width: 50%;
 		height: 15vh;
-	}
-
-	#img-lista-nozze {
-		width: 60%;
-		height: 25vh;
 	}
 
 	#img-tableau {
@@ -190,14 +195,18 @@ a:hover {
   		padding-right: 1% !important;
 	}
 
+	.row {
+		width: 55%;
+	}
+
+	.col {
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+	}
+
 	iframe {
 		width: 40%;
 		height: 25vh;
-	}
-
-	#img-lista-nozze {
-		width: 40%;
-		height: 40vh;
 	}
 
 	#img-tableau {
