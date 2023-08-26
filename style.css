@@ -110,18 +110,31 @@ a:hover {
 		width: 95%;
 	}
 
+	#row-tableau {
+		width: 95%;
+	}
+
 	.col {
 		padding-left: 1% !important;
 		padding-right: 1% !important;
 	}
 
-	iframe {
-		width: 60%;
+	.col-sm-3 {
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+		padding-top: 1% !important;
+		padding-bottom: 1% !important;
 	}
 
-	#img-tableau {
+	.col-3 {
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+		padding-top: 1% !important;
+		padding-bottom: 1% !important;
+	}
+
+	iframe {
 		width: 60%;
-		height: 30vh;
 	}
 }
 
@@ -153,9 +166,20 @@ a:hover {
 		width: 85%;
 	}
 
+	#row-tableau {
+		width: 60%;
+	}
+
 	.col {
 		padding-left: 1% !important;
 		padding-right: 1% !important;
+	}
+
+	.col-md-3{
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+		padding-top: 1% !important;
+		padding-bottom: 1% !important;
 	}
 
 	iframe {
@@ -163,10 +187,6 @@ a:hover {
 		height: 15vh;
 	}
 
-	#img-tableau {
-		width: 50%;
-		height: 40vh;
-	}
 }
 
 
@@ -199,9 +219,20 @@ a:hover {
 		width: 55%;
 	}
 
+	#row-tableau {
+		width: 55%;
+	}
+
 	.col {
 		padding-left: 1% !important;
 		padding-right: 1% !important;
+	}
+
+	.col-lg-2 {
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+		padding-top: 1% !important;
+		padding-bottom: 1% !important;
 	}
 
 	iframe {
@@ -209,8 +240,7 @@ a:hover {
 		height: 25vh;
 	}
 
-	#img-tableau {
-		width: 30%;
-		height: 50vh;
+	.image-container:hover img {
+		transform: scale(2.25);
 	}
 }
